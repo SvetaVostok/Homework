@@ -1,0 +1,41 @@
+PS C:\Users\Svetik\dekstop\Практика\Домашнее 2\s2> mvn test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< org.example:s2 >---------------------------
+[INFO] Building s2 1.0-SNAPSHOT                                                
+[INFO]   from pom.xml                                                          
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ s2 ---
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- compiler:3.10.1:compile (default-compile) @ s2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to C:\Users\Svetik\dekstop\╨Я╤А╨░╨║╤В╨╕╨║╨░\╨Ф╨╛╨╝╨░╤И╨╜╨╡╨╡ 2\s2\target\classes
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ s2 ---
+[INFO] skip non existing resourceDirectory C:\Users\Svetik\dekstop\╨Я╤А╨░╨║╤В╨╕╨║╨░\╨Ф╨╛╨╝╨░╤И╨╜╨╡╨╡ 2\s2\src\test\resources
+[INFO]
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ s2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\Svetik\dekstop\╨Я╤А╨░╨║╤В╨╕╨║╨░\╨Ф╨╛╨╝╨░╤И╨╜╨╡╨╡ 2\s2\target\test-classes
+[INFO] 
+[INFO] --- surefire:3.0.0-M8:test (default-test) @ s2 ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.example.SortTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.125 s - in org.example.SortTest
+[INFO] 
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.467 s
+[INFO] Finished at: 2023-02-20T19:26:55+03:00
+[INFO] ------------------------------------------------------------------------
